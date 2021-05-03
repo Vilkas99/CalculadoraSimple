@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CALCULADORA
+        </title>
+    </head>
+    <body>
+        <p>CALCULADORA SIMPLE</p>
+        <div id="panel">
+            <form name = "calc">
+                <input type="text" class="left" name="left">
+                <input type="text" class="right" name="right">
+                <br>
+                <input type="text" name="result">
+            </form>
+        </div>
+        <div class="keys">
+            <button class="operation" onclick="sum()">+</button>
+            <button class="operation" onclick="subs()">-</button>
+            <button class="operation" onclick="multiply()">x</button>
+            <button class="operation" onclick="divide()">÷</button>
+            <button class="operation" onclick="power()">^</button>
+            <button class="operation" onclick="sqrt()"> √ </button>
+        </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script type="text/javascript" src="calculadora.js"></script>
+    </body>
+</html>
